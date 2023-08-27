@@ -1,42 +1,48 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+:root{
+  --font: 'Poppins', sans-serif;
+
+  --purple-color: #8A1485;
+  --gradient: linear-gradient(180deg, #8A1485 14.58%, rgba(165, 68, 143, 0.60) 100%);
+  --color-font: #7B7B7B;
+  --white-color: #FFFFFF;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  background-color: #f9f8f8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+p, a, ul{
+  margin-bottom: 0 !important;
+  color: var(--color-font);
+  text-decoration: none;
 }
 
-.card {
-  padding: 2em;
+ul li{
+  list-style: none;
 }
 
-.read-the-docs {
-  color: #888;
+i, button{
+  color: var(--white-color);
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: var(--purple-color);
+}
+
+.navbar-container i{
+  background-color: var(--purple-color);
+  padding: 0.5rem;
+  border-radius: 999%;
+}
+
+.navbar-container ul li a{
+  margin: 0 1rem;
+  font-weight: 600;
 }
