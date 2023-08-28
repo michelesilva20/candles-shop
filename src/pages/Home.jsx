@@ -7,6 +7,7 @@ import About from '../components/home/About'
 import Feedback from '../components/home/Feedback'
 import Newsletter from '../components/home/Newsletter'
 import Footer from '../components/Footer'
+import Title from '../components/title'
 
 const Home = () => {
   return (
@@ -16,9 +17,13 @@ const Home = () => {
       <Hero/>
     </div>
     <Numbers/>
+    <Title title='Veja nossos produtos!'/>
     <Products/>
+    <Title title='Conheça o nosso trabalho!'/>
     <About/>
+    <Title title='Acompanhe o Feedback de nossos clientes!'/>
     <Feedback/>
+    <Title title='Newsletter'/>
     <Newsletter/>
     <Footer/>
    </>

@@ -4,11 +4,11 @@ import logo from '../assets/logo.png'
 const Nav = () => {
   return (
     <>
-      <section className='container-fluid navbar-container d-flex align-items-center justify-content-between'>
+      <section className=' container d-flex align-items-center justify-content-between'>
         <div>
           <img src={logo} alt="logo oficial" />
         </div>
-        <nav className='d-flex align-items-center'>
+        <nav className='d-flex align-items-center navbar-container'>
           <ul className='d-flex'>
             <li>
               <a href="#">Home</a>

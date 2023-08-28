@@ -12,10 +12,16 @@
   --gradient: linear-gradient(180deg, #8A1485 14.58%, rgba(165, 68, 143, 0.60) 100%);
   --color-font: #7B7B7B;
   --white-color: #FFFFFF;
+  --shadow: 0px 0px 6px #c7c7c7;
+
+  --green-color: #26AB3B;
+
+  --bg: #f9f8f8
 }
 
 body{
-  background-color: #f9f8f8;
+  background-color: var(--bg);
+  max-width: 1440px !important;
 }
 
 p, a, ul{
@@ -34,6 +40,8 @@ i, button{
 
 h1,h2,h3,h4,h5,h6{
   color: var(--purple-color);
+  margin-bottom: 0 !important;
+  font-weight: bold;
 }
 
 .navbar-container i{
@@ -45,4 +53,212 @@ h1,h2,h3,h4,h5,h6{
 .navbar-container ul li a{
   margin: 0 1rem;
   font-weight: 600;
+}
+
+.hero h1{
+  font-weight: bold;
+  font-size: 3.3rem;
+}
+
+.hero h1 span{
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p{
+  font-weight: bold;
+  width: 80%;
+  font-size: 1.2rem;
+}
+
+.button{
+  background-color: var(--purple-color);
+  color: var(--white-color);
+  border: none;
+  font-weight: bold;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+}
+
+
+.mini-card i{
+  background-color: var(--white-color);
+  color: var(--purple-color);
+  font-size: 3rem;
+  padding: 1rem 1rem;
+  border-radius: 0.3rem;
+  box-shadow: var(--shadow);
+}
+
+.card-products{
+  background-color: var(--white-color);
+  max-width: 350px;
+  width: 100%;
+  border-radius: 0.4rem;
+  box-shadow: var(--shadow);
+  transition: 0.2s;
+  cursor: default;
+}
+
+.card-products:hover, .card-about:hover, .card-feedback{
+  box-shadow: 0px 0px 12px #a6a6a6;;
+}
+
+.card-products img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.details-products h2{
+  font-size: 1.7rem;
+}
+
+.other-price{
+  color: var(--color-font);
+}
+
+.price{
+  color: var(--purple-color);
+  font-weight: bold;
+}
+
+.price span{
+  font-size: 2rem;
+  color: var(--color-font);
+}
+
+.frete{
+  color: var(--green-color);
+  font-weight: bold;
+}
+
+.buy{
+  background-color: transparent;
+  border: 2px solid var(--purple-color);
+  color: var(--purple-color);
+  padding: 0.3rem 2rem;
+  border-radius: 4rem;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.buy:hover{
+  background-color: var(--purple-color);
+  color: var(--white-color);
+}
+
+.flag-desconto{
+  top: 1rem;
+  color: var(--white-color);
+  font-weight: bold;
+  background-color: var(--green-color);
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.title{
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.card-about{
+  background-color: var(--white-color);
+  max-width: 350px;
+  width: 100%;
+  border-radius: 0.4rem;
+  box-shadow: var(--shadow);
+  transition: 0.2s;
+  cursor: default;
+  padding: 3rem 1.3rem;
+}
+
+.card-about i{
+  background-color: var(--purple-color);
+  padding: 1rem;
+  font-size: 3rem;
+  border-radius: 999%;
+}
+
+.card-about h4{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.card-about p{
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+.card-feedback{
+  background-color: var(--white-color);
+  max-width: 500px;
+  width: 100%;
+  border-radius: 0.4rem;
+  box-shadow: var(--shadow);
+  transition: 0.2s;
+  cursor: default;
+  padding: 1.4rem;
+}
+
+.card-feedback img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 999%;
+}
+
+.card-feedback i{
+  color: #E0AC25;
+}
+
+.card-feedback .name{
+  color: var(--purple-color);
+  font-weight: bold;
+}
+
+.card-feedback .age{
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.card-feedback p{
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.card-newsletter{
+  background-color: var(--white-color);
+  width: 100%;
+  border-radius: 0.4rem;
+  box-shadow: var(--shadow);
+  transition: 0.2s;
+  cursor: default;
+  padding: 3rem 2rem;
+}
+
+.card-newsletter input{
+  width: 80%;
+  background-color: #EEEEEE;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  outline: none;
+}
+
+.card-newsletter input::placeholder{
+  color: var(--purple-color);
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.card-newsletter .button{
+  width: 150px;
 }
