@@ -21,7 +21,7 @@
 
 body{
   background-color: var(--bg);
-  max-width: 1440px !important;
+
 }
 
 p, a, ul{
@@ -57,6 +57,14 @@ h1,h2,h3,h4,h5,h6{
 .navbar-container ul li a{
   margin: 0 1rem;
   font-weight: 600;
+}
+
+.logo{
+  width: 80%;
+}
+
+.hero{
+  padding: 2rem 0;
 }
 
 .hero h1{
@@ -284,4 +292,10 @@ footer{
 
 .swiper-pagination-bullet-active{
   background-color: var(--purple-color) !important;
+}
+
+@media (max-width: 769px){
+  .img-hero{
+    width: 60%;
+  }
 }

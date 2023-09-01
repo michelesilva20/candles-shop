@@ -12,7 +12,7 @@ import Title from '../components/title'
 const Home = () => {
   return (
    <>
-    <div className='vh-100'>
+    <div className='vh-lg-100'>
       <Nav/>
       <Hero/>
     </div>

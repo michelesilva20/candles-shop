@@ -6,7 +6,7 @@ const Nav = () => {
     <>
       <section className=' container d-flex align-items-center justify-content-between'>
         <div>
-          <img src={logo} alt="logo oficial" />
+          <img className='logo' src={logo} alt="logo oficial" />
         </div>
         <nav className='d-flex align-items-center navbar-container'>
           <ul className='d-flex'>

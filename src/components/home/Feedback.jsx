@@ -14,7 +14,7 @@ const Feedback = () => {
     <>
       <section className="container d-flex flex-wrap justify-content-between">
       <Swiper
-        slidesPerView={2}
+        slidesPerView={1}
         spaceBetween={10}
         pagination={{
           clickable: true,

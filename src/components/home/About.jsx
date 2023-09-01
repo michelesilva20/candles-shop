@@ -3,8 +3,8 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <section className="container d-flex flex-wrap justify-content-between">
-        <div className='card-about d-flex justify-content-center flex-column'>
+      <section className="container d-flex flex-wrap justify-content-lg-between justify-content-center">
+        <div className='card-about d-flex justify-content-center flex-column mb-lg-0 mb-4'>
           <div className="d-flex justify-content-center">
             <i class='bx bx-cart-alt' ></i>
           </div>
@@ -13,7 +13,7 @@ const About = () => {
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
           </p>
         </div>
-        <div className='card-about d-flex justify-content-center flex-column'>
+        <div className='card-about d-flex justify-content-center flex-column mb-lg-0 mb-4'>
           <div className="d-flex justify-content-center">
             <i class='bx bxs-calendar-check'></i>
           </div>
@@ -22,7 +22,7 @@ const About = () => {
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
           </p>
         </div>
-        <div className='card-about d-flex justify-content-center flex-column'>
+        <div className='card-about d-flex justify-content-center flex-column mb-lg-0 mb-4'>
           <div className="d-flex justify-content-center">
             <i class='bx bx-check-circle'></i>
           </div>
