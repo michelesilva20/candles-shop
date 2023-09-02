@@ -12,7 +12,7 @@ import { Pagination } from 'swiper/modules';
 const Feedback = () => {
   return (
     <>
-      <section className="container d-flex flex-wrap justify-content-between">
+      <section className="feedback container d-flex flex-wrap justify-content-between">
       <Swiper
         slidesPerView={1}
         spaceBetween={10}

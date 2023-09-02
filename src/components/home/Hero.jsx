@@ -5,8 +5,8 @@ const Hero = () => {
     <>
       <section className='hero container d-flex flex-lg-row flex-column justify-content-center'>
         <div className="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-lg-start align-items-center mb-lg-0 mb-4">
-            <h1 className='text-lg-start text-center'><span>Bem-vindo </span>à sua loja de velas!</h1>
-            <p>Loja especialista em confeccionar velas aromáticas de qualidade e por preços acessíveis!</p>
+            <h1 className='text-lg-start text-center'><span>Bem-vindo </span>à sua <br/> loja de velas!</h1>
+            <p className='text-lg-start text-center mt-lg-0 mt-3'>Loja especialista em confeccionar velas aromáticas de qualidade e por preços acessíveis!</p>
            <div>
             <button className='button'>Saiba mais</button>
            </div>
