@@ -1,8 +1,22 @@
-# React + Vite
+<div align="center">
+  <h1>Candles Shop</h1>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <h3><a href="https://michelesilva20.github.io/candles-shop/" target="_blank">Explore the project!</a></h3>
+</div>
 
-Currently, two official plugins are available:
+<div>
+    <h2>📖 Description</h2>
+    <p><strong>Candles Shop</strong> is an online store for scented candles, currently only featuring the homepage, but the project has much to evolve over time!"</p>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div>
+  <h2>💻 Technologies</h2>
+  <ul>
+    <li>React.js</li>
+    <li>Bootstrap</li>
+    <li>Vite</li>
+    <li>Swiper</li>
+  </ul>
+</div>
